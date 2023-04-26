@@ -1,0 +1,34 @@
+/* body{
+ background-image: url('https://images.unsplash.com/photo-1662487701902-7b282855f5a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
+ } */
+ body{
+    background: linear-gradient(45deg, rgb(60, 44, 44), rgb(57, 43, 23));
+ }
+ #tests{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    
+ }
+ .test-list{
+   position: absolute;
+   margin-top: 200px;
+   left: 0;
+   right: 0;
+   
+
+ }
+ .test{
+    text-decoration: none;
+
+ }
+ .btn-test{
+    padding: 5px;
+    width: 100px;
+    
+ }
+ .btn-test:hover{
+    letter-spacing: 2px;
+    background-color: rgb(156, 226, 25);
+    color: black;
+ }

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Lab
+{% endblock %}
+
+{% block content %}
+
+    <div class="row" style="margin-top:20px; margin-left: 20px;">
+        <div class="col-8" id="tests">
+            <h2 style="color:lawngreen">Available Tests in Medical Lab</h2>
+            <hr style="background:yellowgreen">
+            <p style="color:pink; font-weight:bold; color: lawngreen;">Test Your Disease</p>
+
+        </div>
+        <div class="test-list">
+            <ul style="list-style: none;">
+                <li><span style="font-size: 20px; margin-right: 110px; font: bold; color: goldenrod;">Heart Test </span><a class="btn btn-primary btn-test" href="{{ url_for('heart_page') }}">Test</a></li><br>
+                <li><span style="font-size: 20px; margin-right: 110px; font: bold; color: goldenrod;">Covid Test </span><a class="btn btn-primary btn-test" href="{{ url_for('lab_page') }}">Test</a></li><br>
+                <li><span style="font-size: 20px; margin-right: 50px; font: bold; color: goldenrod;">Brain Tumor Test </span><a class="btn btn-primary btn-test" href="{{ url_for('lab_page') }}">Test</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+{% endblock %}
